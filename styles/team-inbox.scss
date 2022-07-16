@@ -1,0 +1,124 @@
+.team-inbox-desktop {
+  height: 790px;
+  display: flex;
+  flex-direction: row;
+  &__first-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 193px;
+    &__text {
+      color: rgba(43, 41, 45, 0.6);
+      font-size: 14px;
+      margin-top: 15px;
+    }
+    &__image {
+      width: 425px;
+      height: 510px;
+      margin-top: 142px;
+    }
+  }
+  &__second-column {
+    margin-left: 190px;
+    margin-top: 115px;
+    &__subtitle {
+      color: $text-color-orange;
+    }
+    &__description {
+      width: 450px;
+      line-height: 34px;
+    }
+    &__citation {
+      background-color: #fff;
+      width: 519px;
+      padding: 30px;
+      font-size: 20px;
+      border-bottom: 4px solid rgba(1, 133, 208, 1);
+    }
+    &__user {
+      display: flex;
+      font-size: 16px;
+      flex-direction: row;
+      margin-top: 28px;
+      align-items: center;
+      &__photo {
+        width: 40px;
+        height: 40px;
+      }
+    }
+    .user-name-desktop {
+      font-size: 16px;
+      flex-direction: column;
+      margin-left: 11px;
+      // margin-top: 28px;
+      float: left;
+    }
+
+    &__name {
+      width: 300px;
+      font-size: 16px;
+      line-height: 22px;
+      text-align: left;
+    }
+  }
+}
+
+.team-inbox-mobile {
+  background-color: rgba(252, 240, 227, 1);
+  margin-top: 0;
+  &__subtitle {
+    font-size: 22px;
+    color: $text-color-orange;
+    margin-left: 15px;
+    margin-top: 32px;
+  }
+  &__title {
+    width: 290px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-top: 17px;
+  }
+  &__description {
+    margin-left: 15px;
+  }
+  &__image {
+    width: 290px;
+    margin-left: 15px;
+    margin-top: 50px;
+  }
+  &__citation {
+    background-color: #fff;
+    width: 290px;
+    padding: 30px 20px;
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-bottom: 4px solid rgba(1, 133, 208, 1);
+    margin-bottom: 48px;
+  }
+  &__user {
+    display: flex;
+    font-size: 16px;
+    flex-direction: row;
+    // margin-top: 28px;
+    align-items: center;
+    &__photo {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  &__author-position {
+    width: 199px;
+    color: rgba(43, 41, 45, 0.6);
+    line-height: 22px;
+    // margin-top: 22px;
+  }
+  &__author-name {
+    margin-top: 26px;
+  }
+}
+
+.user-name-mobile {
+  margin-left: 11px;
+}
