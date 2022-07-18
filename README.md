@@ -1,4 +1,5 @@
-Layout supports mobile (up-to-320px) and desktop (up-to-1400px) versions
+This layout was made in frames of Gromcode.com course HTML/CSS.
+It supports mobile (up to 320px) and desktop (from 1400px) versions.
 
 The tech stack is:
 
