@@ -1,6 +1,8 @@
 .order {
-  padding: 50px 15px;
   background-color: $color-light;
+  @include mobile-screen {
+    padding: 50px 15px;
+  }
 
   @include desktop-screen {
     display: flex;
@@ -10,8 +12,13 @@
   }
 
   &__details {
-    max-width: 555px;
-    margin-left: 121.59px;
+    @include desktop-screen {
+      max-width: 555px;
+      margin-left: 121.59px;
+    }
+    @include mobile-screen {
+      max-width: 290px;
+    }
   }
 
   &__ilustration {
@@ -24,7 +31,7 @@
     @include desktop-screen {
       width: 269.41px;
       height: 296px;
-      margin-left: 224px;
+      margin: 73px 121.59px 72px 224px;
     }
   }
 
@@ -32,16 +39,32 @@
     margin-top: 40px;
     font-weight: bold;
     font-size: 40px;
-    line-height: 40px;
-    text-align: center;
     letter-spacing: -0.25px;
-    text-align: left;
+    @include mobile-screen {
+      line-height: 40px;
+      text-align: center;
+      margin-bottom: 0;
+    }
+    @include desktop-screen {
+      margin-top: 106px;
+      margin-bottom: 0;
+      text-align: left;
+    }
   }
   &__text {
-    margin: 0;
-    margin-top: 18px;
     font-size: 22px;
     line-height: 32px;
+    @include mobile-screen {
+      margin: 0;
+      margin-top: 18px;
+      margin-bottom: 0;
+    }
+    @include desktop-screen {
+      margin-top: 12px;
+      padding: 0;
+      width: 555px;
+      margin-bottom: 0;
+    }
   }
 
   &__form {
@@ -50,14 +73,22 @@
   }
 
   &__email {
-    margin-top: 40px;
-    height: 48px;
-    width: 385px;
     background: $color-white;
     border: 1px solid $border-color;
     border-radius: 2px;
-    text-align: left;
-    padding-left: 15px;
+    height: 48px;
+
+    @include desktop-screen {
+      margin-top: 40px;
+      width: 385px;
+      text-align: left;
+      padding-left: 15px;
+    }
+    @include mobile-screen {
+      text-align: center;
+      width: 100%;
+      margin-top: 40px;
+    }
 
     &::placeholder {
       color: $color-dark;
