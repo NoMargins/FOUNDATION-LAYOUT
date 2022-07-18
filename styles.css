@@ -537,27 +537,28 @@
   @media screen and (min-width: 1400px) {
     .order {
       display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      padding: 73px 0 72px; } }
+      align-items: flex-start; } }
   .order__details {
     max-width: 555px;
-    margin: auto; }
-  .order__ilustration {
-    min-width: 200px;
-    margin: auto;
-    display: block; }
-    @media screen and (min-width: 1400px) {
-      .order__ilustration {
-        max-width: 269px;
-        margin-right: 121px; } }
+    margin-left: 121.59px; }
+  @media screen and (max-width: 1399px) {
+    .order__ilustration {
+      min-width: 200px;
+      margin: auto;
+      display: block; } }
+  @media screen and (min-width: 1400px) {
+    .order__ilustration {
+      width: 269.41px;
+      height: 296px;
+      margin-left: 224px; } }
   .order__title {
     margin-top: 40px;
     font-weight: bold;
     font-size: 40px;
     line-height: 40px;
     text-align: center;
-    letter-spacing: -0.25px; }
+    letter-spacing: -0.25px;
+    text-align: left; }
   .order__text {
     margin: 0;
     margin-top: 18px;
@@ -569,11 +570,12 @@
   .order__email {
     margin-top: 40px;
     height: 48px;
-    width: 100%;
+    width: 385px;
     background: #fff;
     border: 1px solid #28292d33;
     border-radius: 2px;
-    text-align: center; }
+    text-align: left;
+    padding-left: 15px; }
     .order__email::placeholder {
       color: #2b292d; }
     @media screen and (min-width: 1400px) {
@@ -658,6 +660,9 @@
   @media screen and (max-width: 1399px) {
     .audience__button {
       width: 100%; } }
+  @media screen and (min-width: 1400px) {
+    .audience__button {
+      width: 104px; } }
   .audience__button:last-child {
     margin-top: 12px;
     background-color: #fff;
@@ -676,7 +681,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin: 110px auto 110px auto; } }
+        margin: 111px auto 110px; } }
   .audience__card .user-card {
     margin-top: 15px; }
     .audience__card .user-card:first-child {
@@ -684,7 +689,7 @@
     @media screen and (min-width: 1400px) {
       .audience__card .user-card {
         flex: 1;
-        margin-top: 0; } }
+        margin-top: 22px; } }
 
 .user-card {
   margin-top: 15px;
@@ -753,7 +758,7 @@ body {
   border-radius: 2px; }
   @media screen and (min-width: 1400px) {
     .action-button {
-      width: 100%; } }
+      width: 160px; } }
 
 @media screen and (min-width: 1400px) {
   .hide_desktop {
