@@ -543,7 +543,8 @@
   @media screen and (min-width: 1400px) {
     .order__details {
       max-width: 555px;
-      margin-left: 121.59px; } }
+      margin-right: 229px;
+      display: block; } }
   @media screen and (max-width: 1399px) {
     .order__details {
       max-width: 290px; } }
