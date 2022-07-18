@@ -14,7 +14,9 @@
   &__details {
     @include desktop-screen {
       max-width: 555px;
-      margin-left: 121.59px;
+      // margin-left: 121.59px;
+      margin-right: 229px;
+      display: block;
     }
     @include mobile-screen {
       max-width: 290px;
