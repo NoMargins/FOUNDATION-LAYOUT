@@ -1,3 +1,5 @@
+This is my first landing page made according to the Figma layout: https://cutt.ly/iLIGJCN
+
 This layout was made in frames of Gromcode.com course HTML/CSS.
 It supports mobile (up to 320px) and desktop (above 1400px) versions.
 
