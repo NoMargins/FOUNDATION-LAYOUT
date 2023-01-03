@@ -156,6 +156,12 @@
   }
 }
 
+.logo-horizontal {
+  @include mobile-screen {
+    display: none;
+  }
+}
+
 .logo-vertical {
   display: flex;
   flex-direction: column;

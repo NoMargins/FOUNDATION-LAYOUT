@@ -264,6 +264,10 @@
     .social-links__item:first-child {
       margin-left: 0; }
 
+@media screen and (max-width: 1399px) {
+  .logo-horizontal {
+    display: none; } }
+
 .logo-vertical {
   display: flex;
   flex-direction: column;
